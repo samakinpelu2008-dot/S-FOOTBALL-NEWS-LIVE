@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S FOOTBALL NEWS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>⚽ S FOOTBALL NEWS</h1>
+    <p>Live Football News, Scores & League Tables</p>
+  </header>
+
+  <main>
+    <section id="news-section">
+      <h2>📰 Latest Football News</h2>
+      <div id="news"></div>
+    </section>
+
+    <section id="scores-section">
+      <h2>🏆 Live Scores</h2>
+      <div id="scores"></div>
+    </section>
+
+    <section id="table-section">
+      <h2>📊 League Tables</h2>
+      <select id="league-select">
+        <option value="PL">Premier League</option>
+        <option value="PD">La Liga</option>
+        <option value="SA">Serie A</option>
+        <option value="BL1">Bundesliga</option>
+        <option value="FL1">Ligue 1</option>
+      </select>
+      <table id="league-table">
+        <thead>
+          <tr>
+            <th>Pos</th>
+            <th>Team</th>
+            <th>Pts</th>
+            <th>W</th>
+            <th>D</th>
+            <th>L</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <div class="ad-container">
+      <!-- Your Adsterra ad -->
+      <script type="text/javascript">
+        atOptions = {
+          'key': 'pub_8fb474a5cea74dd1951ba5068d30351e',
+          'format': 'iframe',
+          'height': 250,
+          'width': 300,
+          'params': {}
+        };
+        document.write('<scr' + 'ipt type="text/javascript" src="//www.highperformanceformat.com/' + atOptions.key + '/invoke.js"></scr' + 'ipt>');
+      </script>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 S FOOTBALL NEWS | Powered by Football-Data.org & NewsAPI</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
